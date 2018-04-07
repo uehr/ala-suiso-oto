@@ -1,0 +1,24 @@
+{
+  "name": "ala-suiso-oto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "moment": "^2.22.0",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uehr/ala-suiso-oto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uehr/ala-suiso-oto/issues"
+  },
+  "homepage": "https://github.com/uehr/ala-suiso-oto#readme"
+}

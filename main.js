@@ -10,6 +10,10 @@ const tclient = new twitter({
   access_token_secret: process.env.twitter_suiso_access_token_secret
 })
 
+console.log(process.env.twitter_suiso_consumer_key)
+console.log(process.env.twitter_suiso_consumer_secret)
+console.log(process.env.twitter_suiso_access_token_key)
+console.log(process.env.twitter_suiso_access_token_secret)
 console.log("started: " + moment().format(date_format))
 
 cron.schedule(`0 0 * * * * *`, () => {

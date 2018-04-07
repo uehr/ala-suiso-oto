@@ -1,5 +1,5 @@
 const twitter = require("twitter")
-const atoms = require("./atoms.json").atoms
+const atoms = require("./atoms.json")
 const cron = require("node-cron")
 const tclient = new twitter({
   consumer_key: process.env.twitter_suiso_consumer_key,

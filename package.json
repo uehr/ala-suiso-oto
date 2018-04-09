@@ -4,6 +4,7 @@
   "description": "",
   "main": "main.js",
   "dependencies": {
+    "forever": "^0.15.3",
     "moment": "^2.22.0",
     "node-cron": "^1.2.1",
     "nodemon": "^1.17.3",
@@ -12,7 +13,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon main.js"
+    "start": "forever main.js"
   },
   "repository": {
     "type": "git",
